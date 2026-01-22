@@ -59,5 +59,9 @@ function createBall() {
 };
 
 function moveBall() {
+
+};
+
+function drawBall() {
     
 };
