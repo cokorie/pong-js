@@ -51,7 +51,7 @@ function nextTick() {
         drawBall(ballX, ballY);
         checkCollision();
         nextTick();
-    });
+    }, 10);
 };
 
 function clearBoard() {
