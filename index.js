@@ -96,7 +96,7 @@ function changeDirection(e) {
     const paddle2Down = 39;
 
     switch(keyPressed) {
-
+        case():
     }
 };
 
