@@ -103,7 +103,7 @@ function changeDirection(e) {
             break;
         case (paddle1Down):
             if (paddle1.y < gameHeight - paddle1.height) {
-                
+                paddle1.y += paddleSpeed;
             }
             break;
     }
