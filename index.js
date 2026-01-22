@@ -35,3 +35,7 @@ let paddle2 = {
 
 window.addEventListener("keydown");
 resetBtn.addEventListener("click");
+
+function gameStart() {
+    
+}
