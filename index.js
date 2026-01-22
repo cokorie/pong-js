@@ -92,6 +92,7 @@ function createBall() {
 
 function moveBall() {
     ballX += (ballSpeed * ballXDirection);
+    ballY += (ballSpeed * ballYDirection);
 };
 
 function drawBall(ballX, ballY) {
