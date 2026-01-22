@@ -27,5 +27,5 @@ let paddle1 = {
     y: 0,
 };
 let paddle2 = {
-    width,
+    width: 25,
 };
