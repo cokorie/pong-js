@@ -7,7 +7,10 @@
 }
 
 #score {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 15px;
+    font-style: normal;
     font-size: 100px;
 }
 
