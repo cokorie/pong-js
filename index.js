@@ -1,1 +1,1 @@
-const board = document.querySelector("#board");
+const gameBoard = document.querySelector("#board");
