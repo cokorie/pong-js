@@ -22,4 +22,5 @@ let player1Score = 0;
 let player2Score = 0;
 let paddle1 = {
     width: 25,
+    height,
 };
