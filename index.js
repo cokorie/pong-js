@@ -89,6 +89,8 @@ function checkCollision() {
 
 function changeDirection(e) {
     const keyPressed = e.keyCode;
+
+    const paddle1Up;
 };
 
 function updateScore() {
