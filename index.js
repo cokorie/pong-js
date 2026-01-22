@@ -56,7 +56,7 @@ function nextTick() {
 
 function clearBoard() {
     ctx.fillStyle = boardBackground;
-    ctx.fillRect(0);
+    ctx.fillRect(0, 0);
 };
 
 function drawPaddles() {
