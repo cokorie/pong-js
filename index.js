@@ -122,6 +122,7 @@ function checkCollision() {
         player1Score += 1;
         updateScore();
         createBall();
+        return;
     }
 };
 
