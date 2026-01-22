@@ -19,3 +19,4 @@ let ballY = gameHeight / 2;
 let ballXDirection = 0;
 let ballYDirection = 0;
 let player1Score = 0;
+let player2Score;
