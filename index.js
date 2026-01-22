@@ -28,4 +28,5 @@ let paddle1 = {
 };
 let paddle2 = {
     width: 25,
+    height,
 };
