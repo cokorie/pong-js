@@ -47,6 +47,7 @@ function nextTick() {
     intervalId = setTimeout(() => {
         clearBoard();
         drawPaddles();
+        moveBall();
     });
 };
 
