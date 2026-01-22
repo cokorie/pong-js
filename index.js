@@ -54,7 +54,7 @@ function drawPaddles() {
     ctx.strokeStyle = paddleBorder;
 
     ctx.fillStyle = paddle1Color;
-    ctx.fillRect(paddle1.x, paddle1.y);
+    ctx.fillRect(paddle1.x, paddle1.y, paddle1.width);
 };
 
 function createBall() {
