@@ -94,6 +94,10 @@ function changeDirection(e) {
     const paddle1Down = 40;
     const paddle2Up = 37;
     const paddle2Down = 39;
+
+    switch() {
+        
+    }
 };
 
 function updateScore() {
