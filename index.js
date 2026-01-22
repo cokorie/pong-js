@@ -120,6 +120,7 @@ function checkCollision() {
     }
     if(ballX >= gameWidth) {
         player1Score += 1;
+        updateScore();
     }
 };
 
