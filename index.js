@@ -32,3 +32,5 @@ let paddle2 = {
     x: gameWidth - 25,
     y: gameHeight - 100,
 };
+
+window.addEventListener("keydown");
