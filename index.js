@@ -115,6 +115,7 @@ function checkCollision() {
     if(ballX <= 0) {
         player2Score += 1;
         updateScore();
+        createBall();
     }
 };
 
