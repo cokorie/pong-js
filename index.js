@@ -40,4 +40,8 @@ gameStart();
 
 function gameStart() {
 
+};
+
+function nextTick() {
+    
 }
