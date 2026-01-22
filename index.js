@@ -100,6 +100,7 @@ function changeDirection(e) {
             if(paddle1.y > 0) {
                 paddle1.y -= paddleSpeed;
             }
+            break;
     }
 };
 
