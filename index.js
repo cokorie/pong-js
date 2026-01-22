@@ -73,13 +73,13 @@ function drawPaddles() {
 
 function createBall() {
     ballSpeed = 1;
-    if(Math.round(Math.random()) == 1) {
+    if (Math.round(Math.random()) == 1) {
         ballXDirection = 1;
     }
     else {
         ballXDirection = -1;
     }
-    if(Math.round(Math.random()) == 1) {
+    if (Math.round(Math.random()) == 1) {
         ballYDirection = 1;
     }
     else {
@@ -106,33 +106,33 @@ function drawBall(ballX, ballY) {
 };
 
 function checkCollision() {
-    if(ballY <= 0 + ballRadius) {
+    if (ballY <= 0 + ballRadius) {
         ballYDirection *= -1;
     }
-    if(ballY >= gameHeight - ballRadius) {
+    if (ballY >= gameHeight - ballRadius) {
         ballYDirection *= -1;
     }
-    if(ballX <= 0) {
+    if (ballX <= 0) {
         player2Score += 1;
         updateScore();
         createBall();
         return;
     }
-    if(ballX >= gameWidth) {
+    if (ballX >= gameWidth) {
         player1Score += 1;
         updateScore();
         createBall();
         return;
     }
-    if(ballX <= (paddle1.x + paddle1.width + ballRadius)) {
-        if(ballY > paddle1.y && ballY < paddle1.y + paddle1.height) {
+    if (ballX <= (paddle1.x + paddle1.width + ballRadius)) {
+        if (ballY > paddle1.y && ballY < paddle1.y + paddle1.height) {
             ballX = (paddle1.x + paddle1.width) + ballRadius; // keeps game ball from getting stuck
             ballXDirection *= -1;
             ballSpeed += 1;
         }
     }
-    if(ballX >= (paddle2.x - ballRadius)) {
-        if(ballY > paddle2.y && ballY < paddle2.y + paddle2.height) {
+    if (ballX >= (paddle2.x - ballRadius)) {
+        if (ballY > paddle2.y && ballY < paddle2.y + paddle2.height) {
             ballX = paddle2.x - ballRadius; // keeps game ball from getting stuck
             ballXDirection *= -1;
             ballSpeed += 1;
@@ -180,9 +180,13 @@ function resetGame() {
     player1Score = 0;
     player2Score = 0;
     paddle1 = {
-      width: 25,
-      height: 100,
-      x: 0,
-      y: 0  
+        width: 25,
+        height: 100,
+        x: 0,
+        y: 0
+    };
+
+    paddle2 = {
+        
     };
 };
