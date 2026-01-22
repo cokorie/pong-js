@@ -79,7 +79,7 @@ function moveBall() {
 
 };
 
-function drawBall() {
+function drawBall(ballX) {
 
 };
 
