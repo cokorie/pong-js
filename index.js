@@ -69,3 +69,7 @@ function drawBall() {
 function checkCollision() {
 
 };
+
+function changeDirection() {
+
+};
