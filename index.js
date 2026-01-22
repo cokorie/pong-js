@@ -39,7 +39,7 @@ resetBtn.addEventListener("click", resetGame);
 gameStart();
 
 function gameStart() {
-
+    createBall();
 };
 
 function nextTick() {
