@@ -73,3 +73,7 @@ function checkCollision() {
 function changeDirection() {
 
 };
+
+function updateScore() {
+
+};
