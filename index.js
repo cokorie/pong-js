@@ -77,3 +77,7 @@ function changeDirection() {
 function updateScore() {
 
 };
+
+function resetGame() {
+
+};
