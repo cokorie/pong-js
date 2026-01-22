@@ -76,6 +76,9 @@ function createBall() {
     if(Math.round(Math.random()) == 1) {
         ballXDirection = 1;
     }
+    else {
+        
+    }
 };
 
 function moveBall() {
