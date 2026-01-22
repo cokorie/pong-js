@@ -21,5 +21,5 @@ let ballYDirection = 0;
 let player1Score = 0;
 let player2Score = 0;
 let paddle1 = {
-    width;
+    width: 25,
 };
