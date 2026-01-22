@@ -86,6 +86,7 @@ function createBall() {
         ballYDirection = -1;
     }
     ballX = gameWidth / 2;
+    ballY = gameHeight / 2;
 };
 
 function moveBall() {
