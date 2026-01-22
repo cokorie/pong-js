@@ -43,5 +43,9 @@ function gameStart() {
 };
 
 function nextTick() {
+
+}
+
+function clearBoard() {
     
 }
