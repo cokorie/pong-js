@@ -18,3 +18,4 @@ let ballX = gameWidth / 2;
 let ballY = gameHeight / 2;
 let ballXDirection = 0;
 let ballYDirection = 0;
+let player1Score;
