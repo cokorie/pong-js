@@ -111,6 +111,11 @@ function changeDirection(e) {
                 paddle2.y -= paddleSpeed;
             }
             break;
+        case (paddle2Down):
+            if (paddle2.y < gameHeight - paddle1.height) {
+                paddle2.y += paddleSpeed;
+            }
+            break;
     }
 };
 
