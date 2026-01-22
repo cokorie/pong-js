@@ -15,4 +15,4 @@ const paddleSpeed = 50;
 let intervalId;
 let ballSpeed;
 let ballX = gameWidth / 2;
-let ballY;
+let ballY = gameHeight / 2;
