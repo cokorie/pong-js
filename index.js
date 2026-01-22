@@ -84,7 +84,7 @@ function drawBall(ballX, ballY) {
     ctx.strokeStyle = ballBorderColor;
     ctx.lineWidth = 2;
     ctx.beginPath();
-    ctx.arc(ballX)
+    ctx.arc(ballX, ballY)
 };
 
 function checkCollision() {
