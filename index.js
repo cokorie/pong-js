@@ -192,4 +192,6 @@ function resetGame() {
         x: gameWidth - 25,
         y: gameHeight - 100
     };
+
+    ballSpeed = 1;
 };
