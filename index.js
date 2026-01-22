@@ -88,7 +88,7 @@ function checkCollision() {
 };
 
 function changeDirection(e) {
-    const keyPressed;
+    const keyPressed = e.keyCode;
 };
 
 function updateScore() {
