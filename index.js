@@ -52,6 +52,8 @@ function clearBoard() {
 
 function drawPaddles() {
     ctx.strokeStyle = paddleBorder;
+
+    ctx.fillStyle = paddle1Color;
 };
 
 function createBall() {
