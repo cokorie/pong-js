@@ -53,3 +53,7 @@ function clearBoard() {
 function drawPaddles() {
 
 };
+
+function createBall() {
+    
+}
