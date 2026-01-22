@@ -1,2 +1,2 @@
 const gameBoard = document.querySelector("#board");
-const ctx;
+const ctx = gameBoard.getContext("2d");
