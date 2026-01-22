@@ -124,8 +124,8 @@ function checkCollision() {
         createBall();
         return;
     }
-    if() {
-        
+    if(ballX <= (paddle1.x + paddle1.width + ballRadius)) {
+
     }
 };
 
