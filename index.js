@@ -106,7 +106,7 @@ function drawBall(ballX, ballY) {
 };
 
 function checkCollision() {
-    if() {
+    if(ballY <= 0 + ballRadius) {
         
     }
 };
