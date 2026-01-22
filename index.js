@@ -197,4 +197,5 @@ function resetGame() {
     ballX = 0;
     ballY = 0;
     ballXDirection = 0;
+    ballYDirection = 0;
 };
