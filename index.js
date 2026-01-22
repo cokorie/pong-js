@@ -95,8 +95,8 @@ function changeDirection(e) {
     const paddle2Up = 37;
     const paddle2Down = 39;
 
-    switch() {
-        
+    switch(keyPressed) {
+
     }
 };
 
