@@ -77,7 +77,7 @@ function createBall() {
         ballXDirection = 1;
     }
     else {
-        
+        ballXDirection = -1;
     }
 };
 
