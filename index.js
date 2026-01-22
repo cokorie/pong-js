@@ -8,4 +8,4 @@ const boardBackground = "orange";
 const paddle1Color = "black";
 const paddle2Color = "white";
 const paddleBorder = "black";
-const ballColor;
+const ballColor = "yellow";
