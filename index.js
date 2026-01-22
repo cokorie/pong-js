@@ -44,7 +44,9 @@ function gameStart() {
 };
 
 function nextTick() {
+    intervalId = setTimeout(() => {
 
+    });
 };
 
 function clearBoard() {
