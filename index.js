@@ -44,8 +44,12 @@ function gameStart() {
 
 function nextTick() {
 
-}
+};
 
 function clearBoard() {
-    
-}
+
+};
+
+function drawPaddles() {
+
+};
