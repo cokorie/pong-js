@@ -95,10 +95,15 @@ function changeDirection(e) {
     const paddle2Up = 37;
     const paddle2Down = 39;
 
-    switch(keyPressed) {
-        case(paddle1Up):
-            if(paddle1.y > 0) {
+    switch (keyPressed) {
+        case (paddle1Up):
+            if (paddle1.y > 0) {
                 paddle1.y -= paddleSpeed;
+            }
+            break;
+        case (paddle1Down):
+            if (paddle1.y < gameHeight - paddle1.height) {
+                
             }
             break;
     }
