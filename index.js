@@ -73,7 +73,7 @@ function drawPaddles() {
 
 function createBall() {
     ballSpeed = 1;
-    if() {
+    if(Math.round(Math.random()) == 1) {
         
     }
 };
