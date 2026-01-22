@@ -106,6 +106,11 @@ function changeDirection(e) {
                 paddle1.y += paddleSpeed;
             }
             break;
+        case (paddle2Up):
+            if (paddle2.y > 0) {
+                paddle2.y -= paddleSpeed;
+            }
+            break;
     }
 };
 
