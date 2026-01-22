@@ -109,6 +109,9 @@ function checkCollision() {
     if(ballY <= 0 + ballRadius) {
         ballYDirection *= -1;
     }
+    if(ballY >= gameHeight - ballRadius) {
+        ballYDirection *= -1;
+    }
 };
 
 function changeDirection(e) {
