@@ -87,7 +87,7 @@ function createBall() {
     }
     ballX = gameWidth / 2;
     ballY = gameHeight / 2;
-    drawBall(ballX);
+    drawBall(ballX, ballY);
 };
 
 function moveBall() {
