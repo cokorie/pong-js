@@ -11,3 +11,4 @@ const paddleBorder = "black";
 const ballColor = "yellow";
 const ballBorderColor = "black";
 const ballRadius = 12.5;
+const paddleSpeed
