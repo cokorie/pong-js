@@ -48,7 +48,7 @@ function nextTick() {
         clearBoard();
         drawPaddles();
         moveBall();
-        drawBall();
+        drawBall(ballX);
     });
 };
 
