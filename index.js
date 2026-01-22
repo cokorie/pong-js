@@ -49,6 +49,7 @@ function nextTick() {
         drawPaddles();
         moveBall();
         drawBall(ballX, ballY);
+        checkCollision();
     });
 };
 
