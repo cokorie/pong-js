@@ -200,4 +200,5 @@ function resetGame() {
     ballYDirection = 0;
     updateScore();
     clearInterval(intervalId);
+    gameStart();
 };
