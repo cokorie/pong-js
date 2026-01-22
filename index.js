@@ -55,5 +55,9 @@ function drawPaddles() {
 };
 
 function createBall() {
+
+};
+
+function moveBall() {
     
-}
+};
