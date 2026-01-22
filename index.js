@@ -5,4 +5,4 @@ const resetBtn = document.querySelector("#reset");
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
 const boardBackground = "orange";
-const paddle1Color;
+const paddle1Color = "black";
