@@ -34,7 +34,7 @@ let paddle2 = {
 };
 
 window.addEventListener("keydown", changeDirection);
-resetBtn.addEventListener("click");
+resetBtn.addEventListener("click", resetGame);
 
 gameStart();
 
