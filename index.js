@@ -198,4 +198,5 @@ function resetGame() {
     ballY = 0;
     ballXDirection = 0;
     ballYDirection = 0;
+    updateScore();
 };
