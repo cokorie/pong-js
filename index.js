@@ -16,4 +16,4 @@ let intervalId;
 let ballSpeed;
 let ballX = gameWidth / 2;
 let ballY = gameHeight / 2;
-let ballXDirection;
+let ballXDirection = 0;
