@@ -17,4 +17,4 @@ let ballSpeed;
 let ballX = gameWidth / 2;
 let ballY = gameHeight / 2;
 let ballXDirection = 0;
-let ballYDirection;
+let ballYDirection = 0;
