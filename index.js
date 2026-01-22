@@ -118,6 +118,9 @@ function checkCollision() {
         createBall();
         return;
     }
+    if(ballX >= gameWidth) {
+        
+    }
 };
 
 function changeDirection(e) {
