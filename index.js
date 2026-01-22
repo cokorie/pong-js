@@ -173,7 +173,7 @@ function changeDirection(e) {
 };
 
 function updateScore() {
-
+    scoreText.textContent = `${player1Score} : ${player2Score}`;
 };
 
 function resetGame() {
