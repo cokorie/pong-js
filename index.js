@@ -106,7 +106,9 @@ function drawBall(ballX, ballY) {
 };
 
 function checkCollision() {
-
+    if() {
+        
+    }
 };
 
 function changeDirection(e) {
