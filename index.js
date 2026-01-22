@@ -124,6 +124,9 @@ function checkCollision() {
         createBall();
         return;
     }
+    if() {
+        
+    }
 };
 
 function changeDirection(e) {
