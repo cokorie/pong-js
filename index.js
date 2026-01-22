@@ -79,6 +79,12 @@ function createBall() {
     else {
         ballXDirection = -1;
     }
+    if(Math.round(Math.random()) == 1) {
+        ballYDirection = 1;
+    }
+    else {
+        ballYDirection = -1;
+    }
 };
 
 function moveBall() {
