@@ -81,6 +81,7 @@ function moveBall() {
 
 function drawBall(ballX, ballY) {
     ctx.fillStyle = ballColor;
+    ctx.strokeStyle = ballBorderColor;
 };
 
 function checkCollision() {
