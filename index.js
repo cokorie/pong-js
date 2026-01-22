@@ -50,6 +50,7 @@ function nextTick() {
         moveBall();
         drawBall(ballX, ballY);
         checkCollision();
+        nextTick();
     });
 };
 
