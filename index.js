@@ -29,5 +29,5 @@ let paddle1 = {
 let paddle2 = {
     width: 25,
     height: 100,
-    x,
+    x: gameWidth - 25,
 };
