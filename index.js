@@ -40,6 +40,7 @@ gameStart();
 
 function gameStart() {
     createBall();
+    nextTick();
 };
 
 function nextTick() {
