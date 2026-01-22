@@ -125,7 +125,7 @@ function checkCollision() {
         return;
     }
     if(ballX <= (paddle1.x + paddle1.width + ballRadius)) {
-        if() {
+        if(ballY > paddle1.y && ballY < paddle1.y + paddle1.height) {
             
         }
     }
