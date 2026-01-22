@@ -187,6 +187,6 @@ function resetGame() {
     };
 
     paddle2 = {
-        
+        width: 25
     };
 };
