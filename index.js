@@ -48,6 +48,7 @@ function nextTick() {
         clearBoard();
         drawPaddles();
         moveBall();
+        drawBall();
     });
 };
 
