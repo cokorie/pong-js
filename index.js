@@ -24,5 +24,5 @@ let paddle1 = {
     width: 25,
     height: 100,
     x: 0,
-    y,
+    y: 0,
 };
