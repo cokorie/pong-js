@@ -7,4 +7,4 @@ const gameHeight = gameBoard.height;
 const boardBackground = "orange";
 const paddle1Color = "black";
 const paddle2Color = "white";
-const paddleBorder;
+const paddleBorder = "black";
