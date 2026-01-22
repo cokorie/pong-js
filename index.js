@@ -177,5 +177,5 @@ function updateScore() {
 };
 
 function resetGame() {
-
+    player1Score = 0;
 };
