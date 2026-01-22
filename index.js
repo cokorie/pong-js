@@ -182,6 +182,7 @@ function resetGame() {
     paddle1 = {
       width: 25,
       height: 100,
-      x: 0  
+      x: 0,
+      y: 0  
     };
 };
