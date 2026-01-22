@@ -85,6 +85,7 @@ function drawBall(ballX, ballY) {
     ctx.lineWidth = 2;
     ctx.beginPath();
     ctx.arc(ballX, ballY, ballRadius, 0, 2 * Math.PI);
+    ctx.stroke();
 };
 
 function checkCollision() {
