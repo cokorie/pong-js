@@ -91,6 +91,7 @@ function changeDirection(e) {
     const keyPressed = e.keyCode;
 
     const paddle1Up = 38;
+    const paddle1Down;
 };
 
 function updateScore() {
