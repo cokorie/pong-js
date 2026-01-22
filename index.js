@@ -73,6 +73,9 @@ function drawPaddles() {
 
 function createBall() {
     ballSpeed = 1;
+    if() {
+        
+    }
 };
 
 function moveBall() {
