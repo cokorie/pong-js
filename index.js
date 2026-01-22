@@ -97,6 +97,9 @@ function changeDirection(e) {
 
     switch(keyPressed) {
         case(paddle1Up):
+            if() {
+                
+            }
     }
 };
 
