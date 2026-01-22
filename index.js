@@ -98,7 +98,7 @@ function changeDirection(e) {
     switch(keyPressed) {
         case(paddle1Up):
             if(paddle1.y > 0) {
-
+                paddle1.y -= paddleSpeed;
             }
     }
 };
