@@ -10,3 +10,4 @@ const paddle2Color = "white";
 const paddleBorder = "black";
 const ballColor = "yellow";
 const ballBorderColor = "black";
+const ballRadius;
