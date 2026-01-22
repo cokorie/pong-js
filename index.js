@@ -63,5 +63,9 @@ function moveBall() {
 };
 
 function drawBall() {
-    
+
+};
+
+function checkCollision() {
+
 };
