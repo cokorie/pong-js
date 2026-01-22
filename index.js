@@ -181,6 +181,7 @@ function resetGame() {
     player2Score = 0;
     paddle1 = {
       width: 25,
-      height: 100  
+      height: 100,
+      x: 0  
     };
 };
