@@ -87,7 +87,7 @@ function checkCollision() {
 
 };
 
-function changeDirection() {
+function changeDirection(e) {
     const keyPressed;
 };
 
