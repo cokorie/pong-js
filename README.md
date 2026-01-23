@@ -10,6 +10,10 @@ A game reset button is also available for resetting the game score for starting 
 
 Have fun playing this version of PONG!
 
+### __Getting Started__
+Please click into the following hyperlink to play PONG: 
+* [PONG](https://cokorie.github.io/pong-js/)
+
 ### __Technologies Used__
 ##### _HTML_
   The HTML code is used to house the: 
