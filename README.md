@@ -1,5 +1,15 @@
 # PONG
 
+### __Welcome to PONG__
+Enjoy a recreation of the classic arcade game PONG, with scoring for 2 seperate players.
+
+The desktop up & down arrows are used to control player 1's up & down movements, while left & right are used to control player 2's up & down movements in the game.
+
+A game reset button is also available for resetting the game score for starting over a match.
+
+
+Have fun playing this version of PONG!
+
 ### __Technologies Used__
 ##### _HTML_
   The HTML code is used to house the: 
