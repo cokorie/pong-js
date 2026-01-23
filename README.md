@@ -38,5 +38,5 @@ Have fun playing this version of PONG!
 ![PONG Starting Screen](/img/pong-game-start.png)
 ###### This is the starting page for PONG
 
-![PONG Scoring](/img/pong-scoring.png)
+![PONG Scoring](/img/pong-scores.png)
 ###### The scoring is shown for PONG
