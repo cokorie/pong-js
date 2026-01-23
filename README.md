@@ -34,6 +34,9 @@ Have fun playing this version of PONG!
   * Starting and resetting the game
   * Checks for ball impact on paddles and player side for scoring
 
+### __Screenshots__
+![PONG Starting Screen](/img/pong-game-start.png)
+###### This is the starting page for PONG
 
-
-  
+![PONG Scoring](/img/pong-scoring.png)
+###### The scoring is shown for PONG
