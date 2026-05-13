@@ -1,4 +1,4 @@
-# Pong
+# PONG
 
 ### __Welcome to PONG__
 Enjoy a recreation of the classic arcade game PONG, with scoring for 2 seperate players.
